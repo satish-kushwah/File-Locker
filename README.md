@@ -1,6 +1,6 @@
 # File-Locker
 
-File-Locker using Python programming with pyAesCrypt library with Following features
+File encryption/decryption using Python programming with pyAesCrypt library with Following features
 
 1. Lock/Unlock file with password
 2. Lock/Unlock single file
