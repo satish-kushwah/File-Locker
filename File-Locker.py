@@ -36,7 +36,7 @@ if(choice0=='1'):
         if choice1 =='1':
             # encrypt
             filename=input("Enter file name with extension: ")
-            if filename.split('.')[-1] not in ["exe","aes"]:
+            if ((filename.split('.')[-1] not in ["exe","aes"]) and (filename!='File-Locker.py')):
                 input("Please REMEBER your password. if you forget it, file will get locked permanently.\nPress Enter to continue ")
                 while(1):
                     print("*** Password will not be visible ***")
@@ -54,7 +54,7 @@ if(choice0=='1'):
                     else:
                         print("\nBoth passwords not matched")
             else:
-                print(filename,"not alloweed to lock")
+                print(filename,"not allowed to lock")
         elif choice1=='2':
             # decrypt
             filename=input("Enter file name with extension (without .aes): ")
